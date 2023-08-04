@@ -3,6 +3,7 @@ import type { ActorMethod } from '@dfinity/agent';
 
 export interface NFT {
   'getAsset' : ActorMethod<[], Uint8Array | number[]>,
+  'getCanisterId' : ActorMethod<[], Principal>,
   'getName' : ActorMethod<[], string>,
   'getOwner' : ActorMethod<[], Principal>,
 }
