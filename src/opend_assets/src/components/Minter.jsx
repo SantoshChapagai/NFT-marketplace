@@ -25,7 +25,13 @@ function Minter() {
 
     return (
       <div className="minter-container">
-        <h3 hidden={loaderHidden} className="makeStyles-title-99 Typography-h3 form-Typography-gutterBottom">
+        <div hidden={loaderHidden} className="lds-ellipsis">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <h3 className="makeStyles-title-99 Typography-h3 form-Typography-gutterBottom">
           Create NFT
         </h3>
         <h6 className="form-Typography-root makeStyles-subhead-102 form-Typography-subtitle1 form-Typography-gutterBottom">
